@@ -1,0 +1,50 @@
+/* Osnovni stil za zaglavlje */
+header {
+  background-color: pink;
+  background-size: cover;
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+}
+
+/* Kontejner za tekst */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5); /* Lagana tamna prozirna pozadina za bolju čitljivost teksta */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Stil za naslov */
+.header-container h1 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Prva linija teksta */
+.header-container h1:first-child span {
+  color: #ffffff;
+}
+
+/* Druga linija teksta */
+.header-container h1:last-child span {
+  color: #ffdd57;
+}
+
+/* Efekt promjene boje na hover */
+.header-container h1 span {
+  transition: color 0.3s ease-in-out;
+}
+
+.header-container h1:hover span {
+  color: #f8f8f8;
+}
+
+

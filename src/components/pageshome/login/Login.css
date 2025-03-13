@@ -1,0 +1,88 @@
+.hero p {
+    margin-bottom: 52px;
+  }
+  
+  .hero .btn {
+    background-color: var(--primary);
+    color: #fff;
+    padding: 0px 24px;
+    line-height: 48px;
+    border-radius: 90px;
+  }
+  
+  .login-intro{
+    background-color: #3534;
+    min-height: 100vh;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-intro div {
+    max-width: 420px;
+  }
+  
+  .login-intro img {
+    margin-left: 52px;
+    max-width: 196px;
+  }
+  
+  .login-intro h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .login-intro p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.7; 
+    letter-spacing: -1%;
+  }
+  
+  .login-form input,
+  .login-form label,
+  .login-form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .login-form div {
+    width: 100%;
+    max-width: 424px;
+    margin: 0 auto;
+  }
+  
+  .login-form h2 {
+    font-size: 28px;
+  }
+  
+  .login-form label {
+    font-size: 16px;
+  }
+  
+  .login-form input {
+    background-color: #3534;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 46px;
+    border: none;
+    padding: 0 12px;
+  }
+  
+  .login-form button {
+    background-color: darkolivegreen;
+    color: #fff;
+    border-radius: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 24px;
+    border: none;
+  }
+  
+  .login-form a {
+    color: darkolivegreen;
+  }
